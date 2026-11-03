@@ -1,0 +1,20 @@
+{
+  "short_name": "Mi Respawn",
+  "name": "Mi Respawn - Tienda de Recargas Gamer",
+  "description": "Tienda digital de recargas de videojuegos, suscripciones y gift cards con entrega automatizada instantánea y confirmaciones por WhatsApp.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "64x64 192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f4f7fb",
+  "theme_color": "#059669",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "categories": ["games", "entertainment", "shopping"]
+}

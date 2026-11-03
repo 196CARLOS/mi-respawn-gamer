@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="respawnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield / Hex -->
+  <rect width="64" height="64" rx="16" fill="#0f172a" />
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="url(#glowGrad)" stroke-width="2" stroke-opacity="0.6" fill="none" />
+  
+  <!-- Gamepad Body -->
+  <path d="M18 24C15 24 12 27 12 33C12 40 16 46 22 46C25 46 27 43 30 40H34C37 43 39 46 42 46C48 46 52 40 52 33C52 27 49 24 46 24H18Z" fill="url(#respawnGrad)" />
+  
+  <!-- D-Pad (Left) -->
+  <path d="M21 30H23V32H25V34H23V36H21V34H19V32H21V30Z" fill="#ffffff" />
+  
+  <!-- Action Buttons (Right) -->
+  <circle cx="43" cy="31" r="1.5" fill="#ffffff" />
+  <circle cx="40" cy="34" r="1.5" fill="#ffffff" />
+  <circle cx="46" cy="34" r="1.5" fill="#ffffff" />
+  <circle cx="43" cy="37" r="1.5" fill="#ffffff" />
+
+  <!-- Center Lightning / Respawn Spark -->
+  <path d="M33 27L29 34H33L31 39L36 32H32L34 27H33Z" fill="#fef08a" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Mi Respawn - Tienda de Recargas y Suscripciones Gamer",
+  "description": "Tienda digital de recargas de videojuegos, suscripciones y gift cards con entrega automatizada instantánea, pasarela de pago segura y confirmaciones en tiempo real por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
